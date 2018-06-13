@@ -1,0 +1,249 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2017, 5:02:11 PM
+    Author     : myassessment
+*/
+
+.successMsg{
+    background-color: rgba(0, 128, 0, 0.39);  
+    height: 30px;
+    padding-top: 4px;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+.successMsg label{
+
+}
+.errorMsg{
+    background-color: rgba(128, 0, 24, 0.28);
+    height: 30px;
+    padding-top: 4px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.errorMsg label{
+
+}
+.display_msg_success{
+    border: 1px solid #c5c4c4;
+    margin-bottom: 10px;
+    height: 40px;    
+    margin-right: 10px;
+    background-color: rgba(0, 128, 0, 0.45);
+    border-left: 3px solid green;
+
+}
+.display_msg_error{
+    border: 1px solid #c5c4c4;
+    margin-bottom: 10px;
+    height: 40px;    
+    margin-right: 10px;
+    background-color: rgba(236, 44, 62, 0.45);
+    border-left: 3px solid rgba(185, 18, 33, 0.88);
+}
+.label_error_msg{
+    color: rgba(173, 13, 20, 0.85);
+    padding-left: 20px;
+    padding-top: 7px;
+    font-size: 15px;
+}
+.label_success_msg{
+    color: rgba(22, 99, 22, 0.86);
+    padding-left: 20px;
+    padding-top: 7px;
+    font-size: 15px;
+}
+.display_msg_success_Ma{
+    border: 1px solid #c5c4c4;
+    margin-bottom: 10px;
+    height: 40px;               
+    background-color: rgba(0, 128, 0, 0.3);
+    border-left: 3px solid green;
+    margin-right: 10px;
+
+}
+.display_msg_error_Ma{
+    border: 1px solid #c5c4c4;
+    margin-bottom: 10px;
+    height: 40px;                
+    background-color: rgba(236, 44, 62, 0.34);
+    border-left: 3px solid rgba(185, 18, 33, 0.88);
+    margin-right: 10px;
+}
+/* START: This styles apply to DATA TABLE     */
+#filterrow input{
+    border-radius: 2px;
+    border: 1px solid rgba(128, 128, 128, 0.43);
+    height: 27px;
+    width: 100%;
+    padding: 2px;
+}
+.dataTables_filter input{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 3px;
+    height: 30px;
+}
+.dataTables_length select{
+    border: 1px solid rgba(128, 128, 128, 0.38);
+    border-radius: 3px;
+    height: 30px;
+}
+#filterrow input:focus{
+    border: 1px solid #7296EF;
+    box-shadow: 0px 0px 9px 1px rgba(114, 150, 239, 0.59);
+}
+#filterrow input:hover{
+    border: 1px solid #7296EF;
+}
+.dataTables_filter input:hover{
+    border: 1px solid #7296EF;
+}
+.dataTables_filter input:focus{
+    border: 1px solid #7296EF;
+    box-shadow: 0px 0px 9px 1px rgba(114, 150, 239, 0.59);
+}
+/* END: This styles apply to DATA TABLE     */
+.div-wid-7{
+    width: 32%;
+    margin-left: 12px;
+    float: left;
+}
+.row-ext-7{
+    margin-top: 20px;
+}
+#table_sele{
+    width: 200px;
+    height: 25px;
+    margin: 0px;
+    padding-left: 3px;
+    margin-top: 3px;
+    border: 0px solid #dbe0e2;
+    border-radius: 3px;
+
+}
+#table_sele2{
+    width: 353px;
+    height: 25px;
+    margin: 0px;
+    padding-left: 3px;
+    margin-top: 3px;
+    border: 0px solid #dbe0e2;
+    border-radius: 3px;
+
+}
+
+.div-search-7{
+    float: left;
+    margin-top: 24px;
+}
+
+
+.row {
+    margin-right:0px !important;
+    margin-left: 0px !important; 
+}
+.page{
+    padding-left: 10px !important;
+}
+
+.col-md-12{
+    padding-left: 0px !important; 
+    padding-right: 10px !important;
+}
+.pageheader .page-bar {
+
+    margin-right: 10px;
+}
+.pageheader {
+    margin-bottom: 10px !important;
+}
+
+.btn-group .btn {
+    border-radius: 2px !important;
+    padding: 4px 12px !important;
+}
+
+/* START: This styles apply for success and  error message close button     */
+.arrowMsg {
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;                
+    float: right;
+    margin-right: 26px;
+    margin-top: 5px;
+}
+.arrowMsg:before{
+    content: "×";
+}
+.arrowMsg:hover{
+    color:red;
+}
+
+/* END: This styles apply for success and  error message close button       */
+
+
+
+.table tbody tr td:last-child{
+    text-align: right;
+}
+
+.open_page_button{
+    float: right;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+/* START: More less plugin styles*/
+.desc.shorten_expand {
+    height: auto;
+}
+
+.less-more a{
+    text-decoration: none !important;
+    color: #05bbf1;
+}
+
+.shorten-detail {
+    display: none;
+}
+
+.shorten_expand .shorten-ellipses {
+    display: none;
+}
+
+.shorten_expand .shorten-detail {
+    display: inline;
+}
+
+/* END: More less plugin styles*/
+
+
+.tile-body{
+    padding: 15px 8px 14px 8px !important;
+}
+
+
+/* START: TEMPLATE FOR YEAR*/
+.ineer-model{
+    border: 1px solid rgba(72, 72, 72, 0.45);    
+    color: rgba(64, 66, 65, 0.8);
+    padding: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 3px;
+}
+
+/* END: TEMPLATE FOR YEAR*/
+
+.dataTables_paginate {   
+    margin-right: 8px !important;
+}
+
+.slimScrollBar{
+    width: 13px !important;
+    border: 1px solid rgb(117, 102, 102);
+}

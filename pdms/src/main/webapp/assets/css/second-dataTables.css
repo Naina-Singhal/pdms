@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 22, 2017, 2:21:11 PM
+    Author     : myassessment
+*/
+
+/* START: This styles apply to DATA TABLE     */
+.disabled{
+
+    cursor: not-allowed !important;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 3px 9px !important; 
+    margin-left: 2px !important;
+    border: 1px solid rgba(128, 128, 128, 0.53) !important;
+}
+div.dataTables_paginate a.previous{
+    background: linear-gradient(to top, rgb(189, 187, 187) -4%, #ffffff 95%);
+    border: 1px solid rgba(128, 128, 128, 0.3) !important;
+}
+div.dataTables_paginate a.next{
+    background: linear-gradient(to top, rgb(189, 187, 187) -4%, #ffffff 95%);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+   background: linear-gradient(to top, rgba(174, 172, 172, 0.38) -4%, #ffffff 95%);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    background: linear-gradient(to bottom, #fff 0%, #adabab 100%) !important; 
+}
+
+/* END: This styles apply to DATA TABLE     */
+
+.table.table-custom > thead > tr th{
+    padding: 4px !important;
+}
+
+/***************************************************************************/
+/***START; Highlighting rows and columns OF DATATABLE**********************/
+/**************************************************************************/
+td.highlight {
+    background-color: whitesmoke !important;
+}
+/**************************************************************************/
+/***END; Highlighting rows and columns OF DATATABLE**********************/
+/**************************************************************************/
