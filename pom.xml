@@ -31,11 +31,11 @@
             <artifactId>taglibs-unstandard</artifactId>
             <version>20060829</version>
         </dependency> -->
-        <!-- <dependency>
+         <dependency>
 		    <groupId>taglibs</groupId>
 		    <artifactId>taglibs-unstandard</artifactId>
 		    <version>20060829</version>
-		</dependency> -->
+		</dependency>
         <!-- SPRING DEPENDENCIES-->
         <dependency>
             <groupId>org.springframework</groupId>

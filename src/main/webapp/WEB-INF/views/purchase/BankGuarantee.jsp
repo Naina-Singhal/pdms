@@ -242,7 +242,7 @@
                                                                     <label for="username">Remarks: </label>
                                                                     <input type="text" name="remarks" id='remarks' 
                                                                            class="form-control input-sm"
-                                                                           <div   maxlength="40"/>
+                                                                           maxlength="40"/>
                                                                     <label id="errorItemsCovered" style="color: red"></label>
                                                                 </div>
                                                                 <div class="form-group div-wid-7">

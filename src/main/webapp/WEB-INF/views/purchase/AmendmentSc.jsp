@@ -170,7 +170,7 @@
                                                                     <label for="username">Annexure: </label>
                                                                     <input type="text" name="annexure" id='annexure' 
                                                                            class="form-control input-sm"
-                                                                           <div   maxlength="40"/>
+                                                                           maxlength="40"/>
                                                                     <label id="errorItemsCovered" style="color: red"></label>
                                                                 </div>
                                                             </div> 
@@ -179,7 +179,7 @@
                                                                     <label for="username">Head: </label>
                                                                     <input type="text" name="code" id='code' 
                                                                            class="form-control input-sm"
-                                                                           <div   maxlength="40"/>
+                                                                           maxlength="40"/>
                                                                     <label id="errorItemsCovered" style="color: red"></label>
                                                                 </div>
                                                                 <div class="form-group div-wid-7">
@@ -238,7 +238,7 @@
                                                                     <label for="username">For: </label>
                                                                     <input type="text" name="forOne" id='forOne' 
                                                                            class="form-control input-sm"
-                                                                           <div   maxlength="40"/>
+                                                                           maxlength="40"/>
                                                                     <label id="errorItemsCovered" style="color: red"></label>
                                                                 </div>
                                                                 <div class="form-group div-wid-7">
